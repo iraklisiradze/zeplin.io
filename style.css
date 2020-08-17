@@ -1,3 +1,75 @@
-.p {
-    color:white;
+body {
+    max-width: 1920px;
+    height: 3754px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right_header a {
+    text-decoration: none;    
+}
+
+.headphone h2 {
+    width: 506px;
+    height: 112px;
+    font-family: HelveticaNeue;
+    font-size: 84px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+}
+.headphone p {
+    max-width: 620px;
+    height: 75px;
+    font-family: HelveticaNeue-UltraLigCondObl;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+}
+.add {
+    width: 200px;
+  height: 72px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+  display: flex;
+  text-align: center;
+}
+.headphone_pic {
+    max-width: 846px;
+    height: 846px;
+}
+.hero_content {
+    width: 994px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero_product {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px;
 }
