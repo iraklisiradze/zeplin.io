@@ -86,23 +86,26 @@ header {
 }
 
 /*პროდუქციის ჩამონათვალი*/
-.production {
+.trio {
 width: 100%;
 display: flex;
 flex-direction: row;
+padding:0 9% 0 9%;
 }
 .monitori {
     width: 480px;
     height: 231px;
     display: flex;
     flex-direction: raw;
-    margin-left:9%;
+    margin-top:111px;
 }
-.monitori p {
+
+.trio p {
     display: flex;
     align-self: center;
     font-family: HelveticaNeue-Bold;
     font-size: 24px;
+    margin-left: 25px;
 }
 .tiremonitori {
     width: 46px;
@@ -111,3 +114,48 @@ flex-direction: row;
     display: flex; 
     align-self: flex-end;
   }
+  .sanati {
+    width: 480px;
+    height: 342px;
+    display: flex;
+    flex-direction: raw; 
+    margin:0 70px 0 70px;
+    /*margin-top:111px; */  
+}
+.sanati p {
+    margin-top:140px;
+}
+.sanati img {
+    width: 270px;
+    height:342px;
+}
+.headph {
+    width: 480px;
+    height: 231px;
+    display: flex;
+    flex-direction: raw; 
+    margin-top:111px; 
+}
+.headph img {
+    width: 194px;
+    height: 194px;
+}
+.most {
+    width: 100%;
+    height: 50px;
+    padding-left:9%;
+    margin-top: 190px;
+}
+.most h2 {
+    width: 320px;
+    height: 43px;
+    font-family: HelveticaNeue;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+}
