@@ -9,8 +9,17 @@ header {
     justify-content: space-between;
 }
 .right_header a {
-    text-decoration: none;    
+    text-decoration: none;
+    height: 50%;    
 }
+.tire {
+    width: 51px;
+    height: 3px;
+    background-color: #4d4d4d;
+    position: absolute;
+    right: 10vw;
+    top:40px
+  }
 
 .headphone h2 {
     width: 506px;
@@ -53,10 +62,12 @@ header {
   display: flex;
   text-align: center;
 }
+
 .headphone_pic {
     max-width: 846px;
     height: 846px;
 }
+
 .hero_content {
     width: 994px;
     display: flex;
@@ -73,3 +84,30 @@ header {
     justify-content: space-around;
     padding: 80px;
 }
+
+/*პროდუქციის ჩამონათვალი*/
+.production {
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.monitori {
+    width: 480px;
+    height: 231px;
+    display: flex;
+    flex-direction: raw;
+    margin-left:9%;
+}
+.monitori p {
+    display: flex;
+    align-self: center;
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+}
+.tiremonitori {
+    width: 46px;
+    height: 7px;
+    background-color: #4d4d4d; 
+    display: flex; 
+    align-self: flex-end;
+  }
