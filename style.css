@@ -1,54 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    max-width: 1920px;
-    height: 3754px;
+  /*max-width: 1920px;*/
+  width: 100%;
+  height: 3754px;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .right_header a {
-    text-decoration: none;
-    height: 50%;    
+  text-decoration: none;
+  height: 50%;
 }
 .tire {
-    width: 51px;
-    height: 3px;
-    background-color: #4d4d4d;
-    position: absolute;
-    right: 10vw;
-    top:40px
-  }
+  width: 51px;
+  height: 3px;
+  background-color: #4d4d4d;
+  position: absolute;
+  right: 10vw;
+  top: 40px;
+}
 
 .headphone h2 {
-    width: 506px;
-    height: 112px;
-    font-family: HelveticaNeue;
-    font-size: 84px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.08;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4d4d4d;
+  width: 506px;
+  height: 112px;
+  font-family: HelveticaNeue;
+  font-size: 84px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
 }
 .headphone p {
-    max-width: 620px;
-    height: 75px;
-    font-family: HelveticaNeue-UltraLigCondObl;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4d4d4d;
+  max-width: 620px;
+  height: 75px;
+  font-family: HelveticaNeue-UltraLigCondObl;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
 }
 .add {
-    width: 200px;
+  width: 200px;
   height: 72px;
   font-family: HelveticaNeue;
   font-size: 18px;
@@ -64,98 +70,132 @@ header {
 }
 
 .headphone_pic {
-    max-width: 846px;
-    height: 846px;
+  max-width: 846px;
+  height: 846px;
 }
 
 .hero_content {
-    width: 994px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  width: 994px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero_product {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 80px;
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px;
 }
 
 /*პროდუქციის ჩამონათვალი*/
 .trio {
-width: 100%;
-display: flex;
-flex-direction: row;
-padding:0 9% 0 9%;
+width: 1540px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto 0 auto;
 }
 .monitori {
-    width: 480px;
-    height: 231px;
-    display: flex;
-    flex-direction: raw;
-    margin-top:111px;
+  width: 480px;
+  height: 231px;
+  display: flex;
+  flex-direction: raw;
+  margin-top: 111px;
 }
 
 .trio p {
-    display: flex;
-    align-self: center;
-    font-family: HelveticaNeue-Bold;
-    font-size: 24px;
-    margin-left: 25px;
+  display: flex;
+  align-self: center;
+  font-family: HelveticaNeue-Bold;
+  font-size: 24px;
+  margin-left: 25px;
 }
 .tiremonitori {
-    width: 46px;
-    height: 7px;
-    background-color: #4d4d4d; 
-    display: flex; 
-    align-self: flex-end;
-  }
-  .sanati {
-    width: 480px;
-    height: 342px;
-    display: flex;
-    flex-direction: raw; 
-    margin:0 70px 0 70px;
-    /*margin-top:111px; */  
+  width: 46px;
+  height: 7px;
+  background-color: #4d4d4d;
+  display: flex;
+  align-self: flex-end;
+}
+.sanati {
+  width: 480px;
+  height: 342px;
+  display: flex;
+  flex-direction: raw;
+  margin: 0 70px 0 70px;
+  /*margin-top:111px; */
 }
 .sanati p {
-    margin-top:140px;
+  margin-top: 140px;
 }
 .sanati img {
-    width: 270px;
-    height:342px;
+  width: 270px;
+  height: 342px;
 }
 .headph {
-    width: 480px;
-    height: 231px;
-    display: flex;
-    flex-direction: raw; 
-    margin-top:111px; 
+  width: 480px;
+  height: 231px;
+  display: flex;
+  flex-direction: raw;
+  margin-top: 111px;
 }
 .headph img {
-    width: 194px;
-    height: 194px;
+  width: 194px;
+  height: 194px;
 }
 .most {
-    width: 100%;
-    height: 50px;
-    padding-left:9%;
-    margin-top: 190px;
+  width: 30%;
+  height: 50px;
+  padding-left: 9%;
+  margin-top: 190px;
 }
 .most h2 {
-    width: 320px;
-    height: 43px;
-    font-family: HelveticaNeue;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4d4d4d;
+  width: 320px;
+  height: 43px;
+  font-family: HelveticaNeue;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+/* მეორე Ul 6 ელემენტიანი*/
+.hexagon {
+  width: 1540px;
+  max-height: 1140px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto 0 auto;
+}
+.hexagon li {
+  max-width: 480px;
+  height: 471px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sanatihexa {
+  max-width: 480px;
+  height: 569px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.select {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
