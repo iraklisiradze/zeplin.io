@@ -206,3 +206,19 @@ width: 1540px;
   flex-direction:raw;
   justify-content: space-evenly;
 }
+.downpics li {
+  width:483px;
+  height: 290px;
+  position:relative;
+}
+.downpics li p {
+  height: 31px;
+  font-family: HelveticaNeue;
+  font-size: 23px;  
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  top:22px;
+  left:38px;
+  z-index: 1;
+}
