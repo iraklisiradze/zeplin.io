@@ -222,3 +222,18 @@ width: 1540px;
   left:38px;
   z-index: 1;
 }
+.number {
+  width: 77px;
+  height: 77px;
+  background-color: #ffffff;
+  HelveticaNeue;
+  font-size: 40px;
+  color:#4d4d4d;
+  position: absolute;
+  bottom: 31px;
+  left:31px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
