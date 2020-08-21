@@ -5,8 +5,9 @@
 
 body {
   /*max-width: 1920px;*/
-  width: 100vw;
+ width: 100vw;
   height: 3754px;
+  box-sizing: border-box;
 }
 
 header {
@@ -80,7 +81,7 @@ header {
 }
 
 .hero_product {
-  width: 100vw;
+  width: 90%;
   height: 900px;
   display: flex;
   flex-direction: row;
@@ -88,9 +89,9 @@ header {
   padding: 80px;
 }
 
-/*პროდუქციის ჩამონათვალი*/
+/* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
-width: 80%;
+width: 90%;
 margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
@@ -147,9 +148,10 @@ margin: 0 auto 0 auto;
   height: 194px;
 }
 .most {
-  width: 30%;
+  width: 80%;
   height: 50px;
-  margin-left: 9%;
+  margin: 0 auto 0 auto;
+  /*margin-left: 9%;*/
   margin-top: 126px;
 }
 .most h2 {
@@ -168,17 +170,19 @@ margin: 0 auto 0 auto;
 
 /* მეორე Ul 6 ელემენტიანი*/
 .hexagon {
-  width: 1640px;
+  /*width: 85%;*/
+ width: 1740px;
+  height: 1050px;
   margin: 0 auto 0 auto;
-  padding: 50px 0px 50px 0px;
-  /*max-height: 1140px;*/
+  box-sizing: border-box;
+  /*padding: 50px 0px 50px 0px; */
   display: flex;  
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
   
 }
 .hexagon li {
-  max-width: 480px;
+  width: 480px;
   height: 471px;
   margin: 50px;
   display: flex;
@@ -186,21 +190,23 @@ margin: 0 auto 0 auto;
   justify-content: flex-end;
 }
 
-.sanatihexa {
-  max-width: 480px;
+/*.sanatihexa {
+  width: 480px;
   height: 569px;
   border-radius: 25px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+}*/
 .select {
   width: 80%;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+
+/* 3 სურათიანი სტატიკური ზოლი*/ 
 .downpics {
   width: 90%;
   margin:0 auto 0 auto;
@@ -228,7 +234,7 @@ margin: 0 auto 0 auto;
   width: 77px;
   height: 77px;
   background-color: #ffffff;
-  HelveticaNeue;
+  font-family: HelveticaNeue;
   font-size: 40px;
   color:#4d4d4d;
   position: absolute;
