@@ -5,7 +5,7 @@
 
 body {
   /*max-width: 1920px;*/
-  width: 100%;
+  width: 100vw;
   height: 3754px;
 }
 
@@ -13,6 +13,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding:10px 79px 0 59px;
 }
 .right_header a {
   text-decoration: none;
@@ -58,15 +59,12 @@ header {
   height: 72px;
   font-family: HelveticaNeue;
   font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  text-align: left;
+  font-weight: bold; 
   color: #4d4d4d;
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .headphone_pic {
@@ -92,12 +90,13 @@ header {
 
 /*პროდუქციის ჩამონათვალი*/
 .trio {
-width: 1540px;
+width: 80%;
+margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 auto 0 auto;
+  
 }
 .monitori {
   width: 480px;
@@ -150,7 +149,7 @@ width: 1540px;
 .most {
   width: 30%;
   height: 50px;
-  padding-left: 9%;
+  margin-left: 9%;
   margin-top: 126px;
 }
 .most h2 {
@@ -169,12 +168,14 @@ width: 1540px;
 
 /* მეორე Ul 6 ელემენტიანი*/
 .hexagon {
-  width: 1540px;
-  max-height: 1140px;
+  width: 1640px;
+  margin: 0 auto 0 auto;
+  padding: 50px 0px 50px 0px;
+  /*max-height: 1140px;*/
   display: flex;  
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 0 auto 0 auto;
+  
 }
 .hexagon li {
   max-width: 480px;
@@ -182,7 +183,7 @@ width: 1540px;
   margin: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .sanatihexa {
@@ -196,11 +197,12 @@ width: 1540px;
 }
 .select {
   width: 80%;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 .downpics {
-  width: 80%;
+  width: 90%;
   margin:0 auto 0 auto;
   display:flex;
   flex-direction:raw;
@@ -236,4 +238,39 @@ width: 1540px;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.ffooter {
+  width:100%;
+  height: 348px;
+  margin-top:10px;
+  background-color: slategray;
+  position: relative;
+}
+.finish {
+  width:90%;
+  height: 236px;  
+  margin:20px 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+.bigline {
+  width: 1500px;
+  height: 5px;
+  background-color: #ffffff;
+  z-index: 3;
+}
+.social {
+  width: 150px;
+  height: 93px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  right:200px;
+  bottom: 32px;
 }
