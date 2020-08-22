@@ -4,17 +4,35 @@
 }
 
 body {
-  /*max-width: 1920px;*/
- width: 100vw;
-  height: 3754px;
-  box-sizing: border-box;
+  /*width: 1920px;*/
+  /*width: 100%;*/
+  /*height: 3754px;*/
+  /* box-sizing: border-box;
+  margin:0 auto o auto;*/
+}
+@font-face {
+  font-family: "helvetica_bold";
+  src: url(./helvetica_neue_bold.ttf);  
+}
+@font-face {
+  font-family: "helvetica_light";
+  src: url(./helvetica_neue_light.ttf);
+}
+@font-face {
+  font-family: "helvetica_roman";
+  src: url(./helvetica_neue_roman.ttf);
 }
 
 header {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding:10px 79px 0 59px;
+  padding: 10px 79px 0 59px;
+}
+.right_header {
+  display: flex;
+  flex-direction: column;
 }
 .right_header a {
   text-decoration: none;
@@ -24,15 +42,13 @@ header {
   width: 51px;
   height: 3px;
   background-color: #4d4d4d;
-  position: absolute;
-  right: 10vw;
-  top: 40px;
+  margin-top: 6px;
 }
 
 .headphone h2 {
   width: 506px;
   height: 112px;
-  font-family: HelveticaNeue;
+  font-family: helvetica_bold;
   font-size: 84px;
   font-weight: bold;
   font-stretch: normal;
@@ -43,14 +59,15 @@ header {
   color: #4d4d4d;
 }
 .headphone p {
-  max-width: 620px;
+  width: 620px;
   height: 75px;
-  font-family: HelveticaNeue-UltraLigCondObl;
+  font-family: helvetica_light;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 36px;
+  /*line-height: 1.5;*/
   letter-spacing: normal;
   text-align: left;
   color: #4d4d4d;
@@ -58,9 +75,9 @@ header {
 .add {
   width: 200px;
   height: 72px;
-  font-family: HelveticaNeue;
+  font-family: helvetica_roman;
   font-size: 18px;
-  font-weight: bold; 
+  font-weight: bold;
   color: #4d4d4d;
   display: flex;
   text-align: center;
@@ -69,35 +86,102 @@ header {
 }
 
 .headphone_pic {
-  max-width: 846px;
-  height: 846px;
+  /*max-width: 846px;*/
+  /*height: 846px;*/
+  width: 48%;
+  height: 48%;
 }
 
 .hero_content {
-  width: 994px;
+  /*max-width: 994px;*/
+  width: 90%;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
+/*პროდუქტი - ყურსასმენის*/
+.hero_cont {
+  width: 700px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+}
+.buycart {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.tobuy {
+  width: 180px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: #d1c6c6d2;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-right: 30px;
+}
+.headphone_prod {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headphone_prod h3 {
+  width: 698px;
+  height: 35px;
+  font-family: Helvetica_light;
+  font-size: 32px;
+  /*font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;*/
+  color: #4d4d4d;
+}
+.headphone_prod h2 {
+  width: 258px;
+  height: 60px;
+  font-family: Helvetica_bold;
+  font-size: 50px;
+  /*font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: left;*/
+  color: #4d4d4d;
+}
+.headphone_prod p {
+  font-family: helvetica_light;
+}
+
+/*პროდუქტი*/
 
 .hero_product {
   width: 90%;
-  height: 900px;
+  /* height: 900px;*/
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
-  padding: 80px;
+  /*padding: 80px;*/
+  margin: 0 auto 0 auto;
+  /* margin-left:200px;*/
 }
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
-width: 90%;
-margin: 0 auto 0 auto;
+  width: 90%;
+  margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 .monitori {
   width: 480px;
@@ -110,7 +194,7 @@ margin: 0 auto 0 auto;
 .trio p {
   display: flex;
   align-self: center;
-  font-family: HelveticaNeue-Bold;
+  font-family: helvetica_Bold;
   font-size: 24px;
   margin-left: 25px;
 }
@@ -127,7 +211,6 @@ margin: 0 auto 0 auto;
   display: flex;
   flex-direction: raw;
   margin: 0 70px 0 70px;
-  /*margin-top:111px; */
 }
 .sanati p {
   margin-top: 140px;
@@ -148,7 +231,7 @@ margin: 0 auto 0 auto;
   height: 194px;
 }
 .most {
-  width: 80%;
+  width: 70%;
   height: 50px;
   margin: 0 auto 0 auto;
   /*margin-left: 9%;*/
@@ -157,7 +240,7 @@ margin: 0 auto 0 auto;
 .most h2 {
   width: 320px;
   height: 43px;
-  font-family: HelveticaNeue;
+  font-family: helvetica_roman;
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
@@ -170,35 +253,26 @@ margin: 0 auto 0 auto;
 
 /* მეორე Ul 6 ელემენტიანი*/
 .hexagon {
-  /*width: 85%;*/
- width: 1740px;
+  width: 85vw;
+  width: 1740px;
   height: 1050px;
   margin: 0 auto 0 auto;
   box-sizing: border-box;
   /*padding: 50px 0px 50px 0px; */
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
-  /*justify-content: space-evenly;*/
-  
+  justify-content: space-around;
 }
 .hexagon li {
-  width: 480px;
+  min-width: 480px;
   height: 471px;
   margin: 50px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-/*.sanatihexa {
-  width: 480px;
-  height: 569px;
-  border-radius: 25px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}*/
 .select {
   width: 80%;
   margin-top: 20px;
@@ -206,56 +280,56 @@ margin: 0 auto 0 auto;
   justify-content: space-between;
 }
 
-/* 3 სურათიანი სტატიკური ზოლი*/ 
+/* 3 სურათიანი სტატიკური ზოლი*/
 .downpics {
   width: 90%;
-  margin:0 auto 0 auto;
-  display:flex;
-  flex-direction:raw;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: raw;
   justify-content: space-evenly;
 }
 .downpics li {
-  width:483px;
+  max-width: 483px;
   height: 290px;
-  position:relative;
+  position: relative;
 }
 .downpics li p {
   height: 31px;
-  font-family: HelveticaNeue;
-  font-size: 23px;  
+  font-family: helvetica_light;
+  font-size: 23px;
   text-align: left;
   color: #ffffff;
   position: absolute;
-  top:22px;
-  left:38px;
+  top: 22px;
+  left: 38px;
   z-index: 1;
 }
 .number {
   width: 77px;
   height: 77px;
   background-color: #ffffff;
-  font-family: HelveticaNeue;
+  font-family: helvetica_light;
   font-size: 40px;
-  color:#4d4d4d;
+  color: #4d4d4d;
   position: absolute;
   bottom: 31px;
-  left:31px;
+  left: 31px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 .ffooter {
-  width:100%;
+  width: 100%;
   height: 348px;
-  margin-top:10px;
+  margin-top: 10px;
   background-color: slategray;
   position: relative;
 }
 .finish {
-  width:90%;
-  height: 236px;  
-  margin:20px 5% 0 5%;
+  width: 90%;
+  height: 236px;
+  margin: 20px 5% 0 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -277,6 +351,6 @@ margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  right:200px;
+  right: 200px;
   bottom: 32px;
 }
