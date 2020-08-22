@@ -27,8 +27,8 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 79px 0 59px;
+  justify-content: space-around;
+  /*padding: 10px 79px 0 59px;*/
 }
 .right_header {
   display: flex;
@@ -37,6 +37,7 @@ header {
 .right_header a {
   text-decoration: none;
   height: 50%;
+  margin-left:50px;
 }
 .tire {
   width: 51px;
@@ -159,8 +160,28 @@ header {
 .headphone_prod p {
   font-family: helvetica_light;
 }
+/*პროდუქტი ყურსასმენი მორჩა*/
 
-/*პროდუქტი*/
+/*პროდუქტის სია -Product List*/
+.zeplinproduct {
+  width:100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10px 0 10px 0;
+}
+.hexagon_list {
+  width:1520px;
+}
+.heartcart_list{
+  width:450px;
+}
+.buy_list {
+  width:180px;
+  height: 72px;
+}
+/*პროდუქტის სია -Product List - დასასრული*/
 
 .hero_product {
   width: 90%;
