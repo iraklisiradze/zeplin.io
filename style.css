@@ -12,7 +12,7 @@ body {
 }
 @font-face {
   font-family: "helvetica_bold";
-  src: url(./helvetica_neue_bold.ttf);  
+  src: url(./helvetica_neue_bold.ttf);
 }
 @font-face {
   font-family: "helvetica_light";
@@ -27,8 +27,8 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  /*padding: 10px 79px 0 59px;*/
+  justify-content: space-between;
+  padding: 10px 79px 0 39px;
 }
 .right_header {
   display: flex;
@@ -37,7 +37,7 @@ header {
 .right_header a {
   text-decoration: none;
   height: 50%;
-  margin-left:50px;
+  margin-left: 20px;
 }
 .tire {
   width: 51px;
@@ -45,30 +45,29 @@ header {
   background-color: #4d4d4d;
   margin-top: 6px;
 }
+.headphone {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 .headphone h2 {
   width: 506px;
   height: 112px;
+  box-sizing: border-box;
   font-family: helvetica_bold;
-  font-size: 84px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: normal;
+  font-size: 84px;  
   text-align: left;
   color: #4d4d4d;
+  text-align: center;
 }
 .headphone p {
   width: 620px;
   height: 75px;
+  box-sizing: border-box;
   font-family: helvetica_light;
-  font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 36px;
-  /*line-height: 1.5;*/
+  font-size: 24px; 
   letter-spacing: normal;
   text-align: left;
   color: #4d4d4d;
@@ -89,24 +88,18 @@ header {
 .headphone_pic {
   /*max-width: 846px;*/
   /*height: 846px;*/
-  width: 48%;
-  height: 48%;
+  max-width: 48%;
+  max-height: 48%;
 }
 
-.hero_content {
-  /*max-width: 994px;*/
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 /*პროდუქტი - ყურსასმენის*/
 .hero_cont {
-  width: 700px;
-  height: 600px;
+  width: 700px; 
+  height: 400px;
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 .buycart {
   display: flex;
@@ -136,12 +129,6 @@ header {
   height: 35px;
   font-family: Helvetica_light;
   font-size: 32px;
-  /*font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;*/
   color: #4d4d4d;
 }
 .headphone_prod h2 {
@@ -149,12 +136,6 @@ header {
   height: 60px;
   font-family: Helvetica_bold;
   font-size: 50px;
-  /*font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: normal;
-  text-align: left;*/
   color: #4d4d4d;
 }
 .headphone_prod p {
@@ -163,55 +144,91 @@ header {
 /*პროდუქტი ყურსასმენი მორჩა*/
 
 /*პროდუქტის სია -Product List*/
+.hexagon_list {
+  width: 1520px;
+  margin:0 auto 0 auto;
+}
 .zeplinproduct {
-  width:100%;
+  width: 100%;
   height: 250px;
+  border-radius: 10px;
+  border: solid 1px #000000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:10px 0 10px 0;
+  margin: 10px auto 20px auto;
+  padding: 40px;
+  position: relative;
 }
-.hexagon_list {
-  width:1520px;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.heartcart_list{
-  width:450px;
+.about h3 {
+  width: 257px;
+  height: 35px;
+  font-family: helvetica_light;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: #4d4d4d;
+  margin-bottom: 40px;
+}
+
+.select_list {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.heartcart_list {
+  width: 100px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
 }
 .buy_list {
-  width:180px;
+  width: 180px;
   height: 72px;
+}
+.price {
+  width: 143px;
+  /*height: 32px;*/
+  font-family: helvetica_light;
+  font-size: 24px;
+  position: absolute;
+  top: 107px;
+  right: 80px;
 }
 /*პროდუქტის სია -Product List - დასასრული*/
 
 .hero_product {
-  width: 90%;
-  /* height: 900px;*/
+  width: 90%;  
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  /*padding: 80px;*/
-  margin: 0 auto 0 auto;
-  /* margin-left:200px;*/
+  justify-content: space-around;  
+  margin: 0 auto 100px auto;
+
 }
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
-  width: 90%;
-  margin: 0 auto 0 auto;
+  width: 90vw;
+  margin: 10px auto 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-.monitori {
-  width: 480px;
-  height: 231px;
-  display: flex;
-  flex-direction: raw;
-  margin-top: 111px;
+.trio li {
+width:480px;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
 }
-
 .trio p {
   display: flex;
   align-self: center;
@@ -219,38 +236,14 @@ header {
   font-size: 24px;
   margin-left: 25px;
 }
-.tiremonitori {
+.tiretrio {
   width: 46px;
   height: 7px;
   background-color: #4d4d4d;
   display: flex;
   align-self: flex-end;
 }
-.sanati {
-  width: 480px;
-  height: 342px;
-  display: flex;
-  flex-direction: raw;
-  margin: 0 70px 0 70px;
-}
-.sanati p {
-  margin-top: 140px;
-}
-.sanati img {
-  width: 270px;
-  height: 342px;
-}
-.headph {
-  width: 480px;
-  height: 231px;
-  display: flex;
-  flex-direction: raw;
-  margin-top: 111px;
-}
-.headph img {
-  width: 194px;
-  height: 194px;
-}
+ /*ტრიოს დასასრული*/
 .most {
   width: 70%;
   height: 50px;
@@ -273,20 +266,18 @@ header {
 }
 
 /* მეორე Ul 6 ელემენტიანი*/
-.hexagon {
-  width: 85vw;
+.hexagon {  
   width: 1740px;
-  height: 1050px;
+  /*height: 1050px;*/
   margin: 0 auto 0 auto;
   box-sizing: border-box;
-  /*padding: 50px 0px 50px 0px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .hexagon li {
-  min-width: 480px;
-  height: 471px;
+  width: 480px;
+  /*height: 471px;*/
   margin: 50px;
   box-sizing: border-box;
   display: flex;
@@ -351,20 +342,21 @@ header {
   width: 90%;
   height: 236px;
   margin: 20px auto 0 auto;
-  display: flex;
-  flex-direction: row;  
+  display: flex;  
+  flex-direction: row;
   align-items: center;
 }
+
 .text {
-  width:90%;
+  width: 90%;
   display: flex;
   flex-direction: raw;
   justify-content: space-between;
-  margin-left:30px;
+  margin-left: 30px;
 }
 .middle {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
 .bigline {
   width: 1500px;
@@ -380,4 +372,89 @@ header {
   position: absolute;
   right: 200px;
   bottom: 32px;
+}
+@media screen and (max-width: 400px){
+.right_header {
+  display: none;
+}
+.headphone h2 {
+  width: 120px;
+  height: 27px;
+  font-size: 20px;
+}
+.headphone p {
+  width: 312px;
+  height: 74px;
+  font-size: 14px;
+}
+.headphone_pic {
+  width: 230px;
+  height: 230px;
+}
+.hero_cont {
+  width:80vw;
+}
+.hero_product {
+  flex-direction: column-reverse;
+  margin-bottom: 0;
+  align-items: center;
+}
+.add {
+  width:40vw;
+  height: 50px;
+  margin:20px auto 0 auto;
+}
+.trio {
+  
+  flex-direction: column;
+}
+.trio li {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin:30px;
+}
+
+.tiretrio { 
+  align-self: center;
+  height: 2px;
+}
+.most {
+  width:70vw;
+}
+.hexagon {
+  width:80vw;
+  margin:0 auto 0 auto;
+  height: auto;
+  flex-direction: column;
+  padding: 0;
+}
+.hexagon li {
+  width:90%;
+  align-items: center;
+  margin:0;
+}
+.select {
+  justify-content: space-around;
+}
+.downpics {  
+  flex-direction: column;   
+}
+.downpics li {
+  margin:20px; 
+}
+.ffooter {
+  background-color:#ffffff;
+}
+.middle {
+  display: none;
+}
+.finish {
+  flex-wrap: wrap;
+}
+.social {
+  flex-direction: column;
+}
+
 }
