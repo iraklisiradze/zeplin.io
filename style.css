@@ -53,8 +53,9 @@ header {
 }
 
 .headphone h2 {
-  width: 506px;
-  height: 112px;
+  /*width: 506px;*/
+  width:29%;
+  /*height: 112px;*/
   box-sizing: border-box;
   font-family: helvetica_bold;
   font-size: 84px;  
@@ -63,7 +64,8 @@ header {
   text-align: center;
 }
 .headphone p {
-  width: 620px;
+  /*width: 620px;*/
+  width:100%;
   height: 75px;
   box-sizing: border-box;
   font-family: helvetica_light;
@@ -94,9 +96,18 @@ header {
 
 
 /*პროდუქტი - ყურსასმენის*/
-.hero_cont {
-  width: 700px; 
-  height: 400px;
+.hero_headphone {
+  width: 90vw;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;  
+  margin: 0 auto 3% auto;
+}
+.hero_cont_headphone {
+  /*width: 700px;*/ 
+  /*height: 400px;*/
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -118,24 +129,21 @@ header {
 }
 .headphone_prod {
   width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 70%; 
 }
 
 .headphone_prod h3 {
-  width: 698px;
-  height: 35px;
+  /*width: 698px; */
+  width: 100%;
   font-family: Helvetica_light;
   font-size: 32px;
   color: #4d4d4d;
 }
 .headphone_prod h2 {
-  width: 258px;
-  height: 60px;
+  /*width: 258px;*/ 
+  width:35%; 
   font-family: Helvetica_bold;
-  font-size: 50px;
+  font-size: 47px;
   color: #4d4d4d;
 }
 .headphone_prod p {
@@ -205,13 +213,12 @@ header {
 /*პროდუქტის სია -Product List - დასასრული*/
 
 .hero_product {
-  width: 90%;  
+  width: 90vw;  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;  
-  margin: 0 auto 100px auto;
-
+  margin: 0 auto 3% auto;
 }
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
@@ -456,16 +463,15 @@ align-items: flex-end;
 .finish {
   flex-wrap: wrap;
   height: 90%;
-  align-items: flex-start;
-  /*flex-direction: row;*/
+  align-items: flex-start; 
 }
 .social {
   flex-direction: column;
-  height: 150px;
+  height: 140px;
 }
 .text {
   width:60%;
-  height: 70%; 
+  height: 90%; 
   font-size:12px;
   display: flex;
   flex-direction:column-reverse;
@@ -479,7 +485,7 @@ align-items: flex-end;
 }
 address {
   width:60%;
-  height: 20%;
+  height: 30%;  
   font-size:14px;  
 }
 
@@ -490,5 +496,28 @@ address {
   position: absolute;
   bottom: 180px;
 }
+/*product 320*/
+.hero_headphone {
+  flex-direction: column;
+  align-items: center;
+}
+.hero_cont_headphone {
+  width: 100%;
+}
+.headphone_prod h3 {
+width:80%;
+  font-size: 16px;
+}
+.headphone_prod h2 {
+  font-size: 19px;
+}
+.headphone_prod p {
+  font-size: 11px;
+}
+.headphone_prod h2 {
+  width:35%; 
+}
+
+  
 
 }
