@@ -5,7 +5,7 @@
 
 body {
   /*width: 1920px;*/
-  width: 100vw;
+  width: 100%;
   /*height: 3754px;*/
   /* box-sizing: border-box;
   margin:0 auto o auto;*/
@@ -24,11 +24,11 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 79px 0 39px;
+  justify-content: space-between; 
+ padding:20px 20px 0 20px;
 }
 .right_header {
   display: flex;
@@ -45,8 +45,16 @@ header {
   background-color: #4d4d4d;
   margin-top: 6px;
 }
+.hero_product {
+  /*width: 90vw;*/  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;  
+  margin: 0 auto 3% auto;
+}
 .headphone {
-  height: 80%;
+  /*height: 80%;*/
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -66,7 +74,7 @@ header {
 .headphone p {
   /*width: 620px;*/
   width:100%;
-  height: 75px;
+  /*height: 75px;*/
   box-sizing: border-box;
   font-family: helvetica_light;
   font-size: 24px; 
@@ -153,12 +161,12 @@ header {
 
 /*პროდუქტის სია -Product List*/
 .hexagon_list {
-  width: 1520px;
+  /*width: 1520px;*/
+  width: 84vw;
   margin:0 auto 0 auto;
 }
 .zeplinproduct {
-  width: 100%;
-  height: 250px;
+  width: 100%;  
   border-radius: 10px;
   border: solid 1px #000000;
   display: flex;
@@ -168,42 +176,45 @@ header {
   padding: 40px;
   position: relative;
 }
-.about {
+.about {  
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .about h3 {
-  width: 257px;
-  height: 35px;
+ /* width: 257px;*/
+ width:17%;
+  /*height: 35px;*/
   font-family: helvetica_light;
   font-size: 32px;
   font-weight: bold;
   text-align: left;
   color: #4d4d4d;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 
 .select_list {
-  width: 450px;
+  /*width: 450px;*/
+  width:29%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
 }
 .heartcart_list {
-  width: 100px;
+  /*width: 100px;*/
+  width:26%;
   height: 72px;
   display: flex;
   justify-content: space-between;
 }
 .buy_list {
-  width: 180px;
+  /*width: 180px;*/
+  width:40%;
   height: 72px;
 }
 .price {
-  width: 143px;
-  /*height: 32px;*/
+  width: 143px;  
   font-family: helvetica_light;
   font-size: 24px;
   position: absolute;
@@ -212,14 +223,7 @@ header {
 }
 /*პროდუქტის სია -Product List - დასასრული*/
 
-.hero_product {
-  width: 90vw;  
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;  
-  margin: 0 auto 3% auto;
-}
+
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
@@ -254,8 +258,7 @@ align-items: flex-end;
 .most {
   width: 70%;
   height: 50px;
-  margin: 0 auto 0 auto;
-  /*margin-left: 9%;*/
+  margin: 0 auto 0 auto;  
   margin-top: 126px;
 }
 .most h2 {
@@ -275,7 +278,6 @@ align-items: flex-end;
 /* მეორე Ul 6 ელემენტიანი*/
 .hexagon {  
   width: 1740px;
-  /*height: 1050px;*/
   margin: 0 auto 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -283,8 +285,7 @@ align-items: flex-end;
   justify-content: space-around;
 }
 .hexagon li {
-  width: 480px;
-  /*height: 471px;*/
+  width: 480px; 
   margin: 50px;
   box-sizing: border-box;
   display: flex;
@@ -342,7 +343,7 @@ align-items: flex-end;
   width: 100%;
   height: 348px;
   margin-top: 10px;
-  background-color: slategray;
+  background-color:#e7e4e4d5;
   position: relative;
 }
 .finish {
@@ -366,10 +367,10 @@ align-items: flex-end;
   flex-direction: column;  
 }
 .bigline {
-  width: 95%;
+  width: 90%;
   height: 3px;
   margin:0 auto 0 auto;
-  background-color: #ffffff;
+  background-color: #615f5fa2;
   z-index: 3;
 }
 .social {
@@ -381,7 +382,7 @@ align-items: flex-end;
   right: 5%;
   bottom: 10%;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 460px){
 .right_header {
   display: none;
 }
@@ -517,7 +518,45 @@ width:80%;
 .headphone_prod h2 {
   width:35%; 
 }
-
-  
+/* Product List 320*/
+.zeplinproduct {
+  width:90vw;
+  height: 50vw;
+  padding:0;  
+  /*flex-direction: column;*/
+}
+.zeplinproduct img {
+width:30vw;
+height: 30vw;
+display: flex;
+align-self: center;
+}
+.about {
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.about h3 {
+  width:60%;
+  font-size: 21px;
+}
+.about p {
+  font-size: 14px;
+}
+ .select_list {
+   width:60%;
+   position: absolute;
+   left:30%;
+   bottom:3%;
+ } 
+ .heartcart_list {
+  /*width: 100px;*/
+  width:40%;
+  height: 52px;  
+}
+.buy_list {
+  /*width: 180px;*/
+  width:40%;
+  height: 48px;
+}
 
 }
