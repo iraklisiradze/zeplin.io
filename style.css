@@ -227,15 +227,16 @@ header {
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
-  width: 90vw;
-  margin: 10px auto 0 auto;
+  width: 90%;
+  margin: 170px auto 50px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
 .trio li {
-width:480px;
+max-width:480px;
+height: 342px;
 display: flex;
 flex-direction: row;
 align-items: flex-end;
@@ -299,7 +300,12 @@ align-items: flex-end;
   display: flex;
   justify-content: space-between;
 }
-
+.heartcart {
+  width:30%;
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-between;
+}
 /* 3 სურათიანი სტატიკური ზოლი*/
 .downpics {
   width: 90%;
@@ -382,7 +388,29 @@ align-items: flex-end;
   right: 5%;
   bottom: 10%;
 }
-@media screen and (max-width: 460px){
+@media screen and (max-width: 992px){
+  .headphone h2 {
+    font-size: 48px;
+  }
+  .headphone p {
+    font-size:20px;
+  }
+  .trio li {
+    width:243px;
+    height: 173px;
+  }
+  .hexagon {
+width: 95vw;
+justify-content: space-evenly;
+  }
+  .hexagon li {
+    width: 244px;
+    margin:1px;
+  }
+}
+ 
+
+@media screen and (max-width: 360px){
 .right_header {
   display: none;
 }
@@ -414,16 +442,21 @@ align-items: flex-end;
   margin:20px auto 0 auto;
 }
 .trio {
-  
+  margin:0 auto 30px auto;  
   flex-direction: column;
 }
 .trio li {
   width: 100%;
+  height: auto;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin:30px;
+  margin-bottom:30px;
 }
+.trio p {
+  font-size:16px;
+}
+
 
 .tiretrio { 
   align-self: center;
@@ -431,7 +464,11 @@ align-items: flex-end;
 }
 .most {
   width:70%;
-  margin:20px;
+  margin:20px;  
+}
+.most h2 {
+  font-size: 18px;
+  text-align: center;
 }
 .hexagon {
   width:80vw;
@@ -441,17 +478,28 @@ align-items: flex-end;
   padding: 0;
 }
 .hexagon li {
-  width:90%;
+  width:100%;
   align-items: center;
   margin:0;
 }
+.hexagon li img {
+  width:70%;
+}
+
 .select {
   justify-content: space-around;
+  height: 33px;
+}
+.heartcart img {
+width: 31px;
+height: 28px;
 }
 .downpics {  
   flex-direction: column;   
 }
 .downpics li {
+  width:90%;
+  height: auto;
   margin:20px; 
 }
 .ffooter {
