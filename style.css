@@ -27,8 +27,8 @@ header {
   width: 95%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
- padding:20px 20px 0 20px;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
 }
 .right_header {
   display: flex;
@@ -45,12 +45,15 @@ header {
   background-color: #4d4d4d;
   margin-top: 6px;
 }
+.tire:hover {
+  background-color: blue;
+}
 .hero_product {
-  /*width: 90vw;*/  
+  /*width: 90vw;*/
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-around;
   margin: 0 auto 3% auto;
 }
 .headphone {
@@ -62,22 +65,22 @@ header {
 
 .headphone h2 {
   /*width: 506px;*/
-  width:29%;
+  width: 29%;
   /*height: 112px;*/
   box-sizing: border-box;
   font-family: helvetica_bold;
-  font-size: 84px;  
+  font-size: 84px;
   text-align: left;
   color: #4d4d4d;
   text-align: center;
 }
 .headphone p {
   /*width: 620px;*/
-  width:100%;
+  width: 100%;
   /*height: 75px;*/
   box-sizing: border-box;
   font-family: helvetica_light;
-  font-size: 24px; 
+  font-size: 24px;
   letter-spacing: normal;
   text-align: left;
   color: #4d4d4d;
@@ -102,18 +105,17 @@ header {
   max-height: 48%;
 }
 
-
 /*პროდუქტი - ყურსასმენის*/
 .hero_headphone {
-  width: 90vw;  
+  width: 90vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-around;
   margin: 0 auto 3% auto;
 }
 .hero_cont_headphone {
-  /*width: 700px;*/ 
+  /*width: 700px;*/
   /*height: 400px;*/
   width: 50%;
   display: flex;
@@ -137,7 +139,7 @@ header {
 }
 .headphone_prod {
   width: 100%;
-  height: 70%; 
+  height: 70%;
 }
 
 .headphone_prod h3 {
@@ -148,8 +150,8 @@ header {
   color: #4d4d4d;
 }
 .headphone_prod h2 {
-  /*width: 258px;*/ 
-  width:35%; 
+  /*width: 258px;*/
+  width: 35%;
   font-family: Helvetica_bold;
   font-size: 47px;
   color: #4d4d4d;
@@ -163,10 +165,10 @@ header {
 .hexagon_list {
   /*width: 1520px;*/
   width: 84vw;
-  margin:0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 .zeplinproduct {
-  width: 100%;  
+  width: 100%;
   border-radius: 10px;
   border: solid 1px #000000;
   display: flex;
@@ -176,14 +178,14 @@ header {
   padding: 40px;
   position: relative;
 }
-.about {  
+.about {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .about h3 {
- /* width: 257px;*/
- width:17%;
+  /* width: 257px;*/
+  width: 17%;
   /*height: 35px;*/
   font-family: helvetica_light;
   font-size: 32px;
@@ -195,7 +197,7 @@ header {
 
 .select_list {
   /*width: 450px;*/
-  width:29%;
+  width: 29%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -203,18 +205,18 @@ header {
 }
 .heartcart_list {
   /*width: 100px;*/
-  width:26%;
+  width: 26%;
   height: 72px;
   display: flex;
   justify-content: space-between;
 }
 .buy_list {
   /*width: 180px;*/
-  width:40%;
+  width: 40%;
   height: 72px;
 }
 .price {
-  width: 143px;  
+  width: 143px;
   font-family: helvetica_light;
   font-size: 24px;
   position: absolute;
@@ -222,8 +224,6 @@ header {
   right: 80px;
 }
 /*პროდუქტის სია -Product List - დასასრული*/
-
-
 
 /* ტრიო პროდუქციის ჩამონათვალი*/
 .trio {
@@ -235,11 +235,11 @@ header {
   justify-content: space-around;
 }
 .trio li {
-max-width:480px;
-height: 342px;
-display: flex;
-flex-direction: row;
-align-items: flex-end;
+  max-width: 480px;
+  height: 342px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 .trio p {
   display: flex;
@@ -255,11 +255,11 @@ align-items: flex-end;
   display: flex;
   align-self: flex-end;
 }
- /*ტრიოს დასასრული*/
+/*ტრიოს დასასრული*/
 .most {
   width: 70%;
   height: 50px;
-  margin: 0 auto 0 auto;  
+  margin: 0 auto 0 auto;
   margin-top: 126px;
 }
 .most h2 {
@@ -277,7 +277,7 @@ align-items: flex-end;
 }
 
 /* მეორე Ul 6 ელემენტიანი*/
-.hexagon {  
+.hexagon {
   width: 1740px;
   margin: 0 auto 0 auto;
   box-sizing: border-box;
@@ -286,7 +286,7 @@ align-items: flex-end;
   justify-content: space-around;
 }
 .hexagon li {
-  width: 480px; 
+  width: 480px;
   margin: 50px;
   box-sizing: border-box;
   display: flex;
@@ -301,7 +301,7 @@ align-items: flex-end;
   justify-content: space-between;
 }
 .heartcart {
-  width:30%;
+  width: 30%;
   display: flex;
   flex-direction: raw;
   justify-content: space-between;
@@ -349,14 +349,14 @@ align-items: flex-end;
   width: 100%;
   height: 348px;
   margin-top: 10px;
-  background-color:#e7e4e4d5;
+  background-color: #e7e4e4d5;
   position: relative;
 }
 .finish {
   width: 95%;
   height: 236px;
   margin: 0 auto 0 auto;
-  display: flex;  
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
@@ -370,12 +370,12 @@ align-items: flex-end;
 }
 .middle {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 .bigline {
   width: 90%;
   height: 3px;
-  margin:0 auto 0 auto;
+  margin: 0 auto 0 auto;
   background-color: #615f5fa2;
   z-index: 3;
 }
@@ -394,301 +394,321 @@ align-items: flex-end;
 .burger_menu {
   display: none;
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .headphone h2 {
     font-size: 48px;
   }
   .headphone p {
-    font-size:20px;
+    font-size: 20px;
   }
   .trio li {
-    width:243px;
+    width: 243px;
     height: 173px;
   }
+  .trio li img {
+    max-width: 137px;
+  }
+  .trio li p {
+    font-size: 15px;
+  }
+
   .hexagon {
-width: 95vw;
-justify-content: space-evenly;
+    width: 95vw;
+    justify-content: space-evenly;
   }
   .hexagon li {
     width: 244px;
-    margin:1px;
+    margin: 1px;
+  }
+  .hexagon li img {
+    max-width:184px;
+  }
+
+  .downpics li {
+    width: 245px;
+    height: 148px;
+  }
+  .downpics li img {
+    width: 95%;
+    height: 95%;
+  }
+  .downpics li p {
+    font-size: 15px;
+  }
+  .number {
+    width:25px;
+    height: 25px;
+    font-size: 18px;
   }
   .burger_icon {
     display: none;
   }
 }
- 
 
-@media screen and (max-width: 360px){
-.right_header {
-  display: none;
-}
+@media screen and (max-width: 360px) {
+  .right_header {
+    display: none;
+  }
 
-.headphone h2 {
-  width: 120px;
-  height: 27px;
-  font-size: 20px;
-}
-.headphone p {
-  width: 312px;
-  height: 74px;
-  font-size: 14px;
-}
-.headphone_pic {
-  width: 230px;
-  height: 230px;
-}
-.hero_cont {
-  width:80vw;
-}
-.hero_product {
-  flex-direction: column-reverse;
-  margin-bottom: 0;
-  align-items: center;
-}
-.add {
-  width:40vw;
-  height: 50px;
-  margin:20px auto 0 auto;
-}
-.trio {
-  margin:0 auto 30px auto;  
-  flex-direction: column;
-}
-.trio li {
-  width: 100%;
-  height: auto;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom:30px;
-}
-.trio p {
-  font-size:16px;
-}
+  .headphone h2 {
+    width: 120px;
+    height: 27px;
+    font-size: 20px;
+  }
+  .headphone p {
+    width: 312px;
+    height: 74px;
+    font-size: 14px;
+  }
+  .headphone_pic {
+    width: 230px;
+    height: 230px;
+  }
+  .hero_cont {
+    width: 80vw;
+  }
+  .hero_product {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+    align-items: center;
+  }
+  .add {
+    width: 40vw;
+    height: 50px;
+    margin: 20px auto 0 auto;
+  }
+  .trio {
+    margin: 0 auto 30px auto;
+    flex-direction: column;
+  }
+  .trio li {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .trio p {
+    font-size: 16px;
+  }
+  .tiretrio {
+    align-self: center;
+    height: 2px;
+  }
+  .most {
+    width: 70%;
+    margin: 20px;
+  }
+  .most h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .hexagon {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    height: auto;
+    flex-direction: column;
+    padding: 0;
+  }
+  .hexagon li {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  .hexagon li img {
+    width: 70%;
+  }
+  .select {
+    justify-content: space-around;
+    height: 33px;
+  }
+  .heartcart img {
+    width: 31px;
+    height: 28px;
+  }
+  .downpics {
+    flex-direction: column;
+  }
+  .downpics li {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+  }
+  .ffooter {
+    background-color: #ffffff;
+  }
+  .middle {
+    display: none;
+  }
+  .finish {
+    flex-wrap: wrap;
+    height: 90%;
+    align-items: flex-start;
+  }
+  .social {
+    flex-direction: column;
+    height: 140px;
+  }
+  .text {
+    width: 60%;
+    height: 90%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .text p {
+    display: flex;
+    position: absolute;
+    bottom: 210px;
+  }
+  address {
+    width: 60%;
+    height: 30%;
+    font-size: 14px;
+  }
 
-
-.tiretrio { 
-  align-self: center;
-  height: 2px;
-}
-.most {
-  width:70%;
-  margin:20px;  
-}
-.most h2 {
-  font-size: 18px;
-  text-align: center;
-}
-.hexagon {
-  width:80vw;
-  margin:0 auto 0 auto;
-  height: auto;
-  flex-direction: column;
-  padding: 0;
-}
-.hexagon li {
-  width:100%;
-  align-items: center;
-  margin:0;
-}
-.hexagon li img {
-  width:70%;
-}
-
-.select {
-  justify-content: space-around;
-  height: 33px;
-}
-.heartcart img {
-width: 31px;
-height: 28px;
-}
-.downpics {  
-  flex-direction: column;   
-}
-.downpics li {
-  width:90%;
-  height: auto;
-  margin:20px; 
-}
-.ffooter {
-  background-color:#ffffff;
-
-}
-.middle {
-  display: none;
-}
-.finish {
-  flex-wrap: wrap;
-  height: 90%;
-  align-items: flex-start; 
-}
-.social {
-  flex-direction: column;
-  height: 140px;
-}
-.text {
-  width:60%;
-  height: 90%; 
-  font-size:12px;
-  display: flex;
-  flex-direction:column-reverse;
-  justify-content:space-between;
-  margin:0;  
-}
-.text p {
-  display: flex;
- position: absolute; 
-  bottom: 210px;  
-}
-address {
-  width:60%;
-  height: 30%;  
-  font-size:14px;  
-}
-
-.bigline {
-  width:300px;
-  height: 4px;
-  background-color: black;
-  position: absolute;
-  bottom: 180px;
-}
-/*product 320*/
-.hero_headphone {
-  flex-direction: column;
-  align-items: center;
-}
-.hero_cont_headphone {
-  width: 100%;
-}
-.headphone_prod h3 {
-width:80%;
-  font-size: 16px;
-}
-.headphone_prod h2 {
-  font-size: 19px;
-}
-.headphone_prod p {
-  font-size: 11px;
-}
-.headphone_prod h2 {
-  width:35%; 
-}
-/* Product List 320*/
-.zeplinproduct {
-  width:90vw;
-  height: 50vw;
-  padding:0; 
-}
-.zeplinproduct img {
-width:30vw;
-height: 30vw;
-display: flex;
-align-self: center;
-}
-.about {
-  justify-content: flex-start;
-  margin-right: 20px;
-}
-.about h3 {
-  width:60%;
-  font-size: 21px;
-}
-.about p {
-  font-size: 14px;
-}
- .select_list {
-   width:60%;
-   position: absolute;
-   left:30%;
-   bottom:3%;
- } 
- .heartcart_list { 
-  width:40%;
-  height: 52px;  
-}
-.buy_list {  
-  width:40%;
-  height: 48px;
-}
-/*ბურგერ მენიუ*/
-.burger_icon {  
-  width:30px;
-  height: 15px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: absolute;
-  right: 10px;
-  top:20px;  
-}
-.tire1 {
-  width:16px;
-  height: 2px;
-  background-color: black;
-}
-.tire2 {
-  width:24px;
-  height: 2px;
-  background-color: black;
-}
-.burger_menu { 
-  width:58vw;
-  height: 100vh;
-  background-color: black;
-  /*display: none;
+  .bigline {
+    width: 300px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 180px;
+  }
+  /*product 320*/
+  .hero_headphone {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero_cont_headphone {
+    width: 100%;
+  }
+  .headphone_prod h3 {
+    width: 80%;
+    font-size: 16px;
+  }
+  .headphone_prod h2 {
+    font-size: 19px;
+  }
+  .headphone_prod p {
+    font-size: 11px;
+  }
+  .headphone_prod h2 {
+    width: 35%;
+  }
+  /* Product List 320*/
+  .zeplinproduct {
+    width: 90vw;
+    height: 50vw;
+    padding: 0;
+  }
+  .zeplinproduct img {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    align-self: center;
+  }
+  .about {
+    justify-content: flex-start;
+    margin-right: 20px;
+  }
+  .about h3 {
+    width: 60%;
+    font-size: 21px;
+  }
+  .about p {
+    font-size: 14px;
+  }
+  .select_list {
+    width: 60%;
+    position: absolute;
+    left: 30%;
+    bottom: 3%;
+  }
+  .heartcart_list {
+    width: 40%;
+    height: 52px;
+  }
+  .buy_list {
+    width: 40%;
+    height: 48px;
+  }
+  /*ბურგერ მენიუ*/
+  .burger_icon {
+    width: 30px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  .tire1 {
+    width: 16px;
+    height: 2px;
+    background-color: black;
+  }
+  .tire2 {
+    width: 24px;
+    height: 2px;
+    background-color: black;
+  }
+  .burger_menu {
+    width: 58vw;
+    height: 100vh;
+    background-color: black;
+    /*display: none;
   flex-direction: column;
   justify-content: space-between;*/
-  position: fixed;
-  top:60px;
-  left:129px;
-  right: 0;
-  z-index: 10;
-}
-.myLinks {
-  width:100%;
-  height:280px;
-  margin: 120px auto auto auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-evenly;
-  z-index: 11;
-}
-.myLinks a {
-  color: #ffffff;
-  font-size: 20px;
-  text-decoration: none;
-}
-.appear {
-  display: flex;
-}
-/* PRODUCT_List 360*/
-.heartcart_list {
-  justify-content: space-around;
-}
-.heartcart_list img {
-  width: 14px;
-  height: 14px;
-}
-.about h3 {
-  font-size:15px;
-}
-.price {
-  width: 76px;
-  font-family: helvetica_light;
-  font-size: 14px;
-  position: absolute;
-  top: 80px;
-  right: 3px;
-}
-.buy_list {
-  width: 100px;
-  height: 40px;
-}
-
-
+    position: fixed;
+    top: 60px;
+    left: 129px;
+    right: 0;
+    z-index: 10;
+  }
+  .myLinks {
+    width: 100%;
+    height: 280px;
+    margin: 120px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    z-index: 11;
+  }
+  .myLinks a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .appear {
+    display: flex;
+  }
+  /* PRODUCT_List 360*/
+  .heartcart_list {
+    justify-content: space-around;
+  }
+  .heartcart_list img {
+    width: 14px;
+    height: 14px;
+  }
+  .about h3 {
+    font-size: 15px;
+  }
+  .price {
+    width: 76px;
+    font-family: helvetica_light;
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+    right: 3px;
+  }
+  .buy_list {
+    width: 100px;
+    height: 40px;
+  }
 }
