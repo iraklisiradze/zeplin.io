@@ -309,7 +309,7 @@ align-items: flex-end;
 /* 3 სურათიანი სტატიკური ზოლი*/
 .downpics {
   width: 90%;
-  margin: 0 auto 0 auto;
+  /*margin: 0 auto 0 auto;*/
   display: flex;
   flex-direction: raw;
   justify-content: space-evenly;
@@ -388,6 +388,12 @@ align-items: flex-end;
   right: 5%;
   bottom: 10%;
 }
+.burger_icon {
+  display: none;
+}
+.burger_menu {
+  display: none;
+}
 @media screen and (max-width: 992px){
   .headphone h2 {
     font-size: 48px;
@@ -407,6 +413,9 @@ justify-content: space-evenly;
     width: 244px;
     margin:1px;
   }
+  .burger_icon {
+    display: none;
+  }
 }
  
 
@@ -414,6 +423,7 @@ justify-content: space-evenly;
 .right_header {
   display: none;
 }
+
 .headphone h2 {
   width: 120px;
   height: 27px;
@@ -570,8 +580,7 @@ width:80%;
 .zeplinproduct {
   width:90vw;
   height: 50vw;
-  padding:0;  
-  /*flex-direction: column;*/
+  padding:0; 
 }
 .zeplinproduct img {
 width:30vw;
@@ -596,15 +605,90 @@ align-self: center;
    left:30%;
    bottom:3%;
  } 
- .heartcart_list {
-  /*width: 100px;*/
+ .heartcart_list { 
   width:40%;
   height: 52px;  
 }
-.buy_list {
-  /*width: 180px;*/
+.buy_list {  
   width:40%;
   height: 48px;
 }
+/*ბურგერ მენიუ*/
+.burger_icon {  
+  width:30px;
+  height: 15px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  right: 10px;
+  top:20px;  
+}
+.tire1 {
+  width:16px;
+  height: 2px;
+  background-color: black;
+}
+.tire2 {
+  width:24px;
+  height: 2px;
+  background-color: black;
+}
+.burger_menu { 
+  width:58vw;
+  height: 100vh;
+  background-color: black;
+  /*display: none;
+  flex-direction: column;
+  justify-content: space-between;*/
+  position: fixed;
+  top:60px;
+  left:129px;
+  right: 0;
+  z-index: 10;
+}
+.myLinks {
+  width:100%;
+  height:280px;
+  margin: 120px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  z-index: 11;
+}
+.myLinks a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.appear {
+  display: flex;
+}
+/* PRODUCT_List 360*/
+.heartcart_list {
+  justify-content: space-around;
+}
+.heartcart_list img {
+  width: 14px;
+  height: 14px;
+}
+.about h3 {
+  font-size:15px;
+}
+.price {
+  width: 76px;
+  font-family: helvetica_light;
+  font-size: 14px;
+  position: absolute;
+  top: 80px;
+  right: 3px;
+}
+.buy_list {
+  width: 100px;
+  height: 40px;
+}
+
 
 }
