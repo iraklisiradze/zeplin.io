@@ -168,6 +168,12 @@ header {
 /*პროდუქტი ყურსასმენი მორჩა*/
 
 /*პროდუქტის სია -Product List*/
+.formss {
+  width:84vw;
+  display: flex;
+justify-content: space-between;
+margin: 0 auto 0 auto;
+}
 .hexagon_list {
   /*width: 1520px;*/
   width: 84vw;
@@ -609,6 +615,9 @@ header {
     width: 35%;
   }
   /* Product List 320*/
+  .formss p {
+    display: none;
+  }
   .zeplinproduct {
     width: 90vw;
     height: 50vw;
